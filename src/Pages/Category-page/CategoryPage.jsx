@@ -11,7 +11,9 @@ export default function CategoryPage() {
   const [status, setStatus] = useState(true);
 
   const { name } = useParams();
-  //   через useParams достается динамическое значение параметра с доеточием с Route
+  //   через useParams достается динамическое значение параметра с двоеточием с Route
+
+  
 
   useEffect(() => {
     fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?c=${name}`)

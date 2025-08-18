@@ -9,7 +9,7 @@ export default function GoBack() {
     }
 
   return (
-    <button class="waves-effect waves-light btn" onClick={handleGoBack}>
+    <button className="waves-effect waves-light btn" onClick={handleGoBack}>
       Go Back
     </button>
     

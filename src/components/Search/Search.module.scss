@@ -1,3 +1,8 @@
+.container{
+  position: relative;
+}
+
+
 .block {
   position: relative;
 }
@@ -6,4 +11,12 @@
   position: absolute;
   right: 0px;
   bottom: 16px;
+}
+
+.tooltip {
+  background-color: grey;
+  color: #fff;
+  position: absolute;
+  top: 50px;
+  right: 100px;
 }
